@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3d68920e-db7c-ee11-8179-000d3a8cf24c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{9d7ce1c5-6d1c-4390-9616-850a67f940e0}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{64088a11-e943-4b8e-a102-9d0f0efae243}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ce8a57b2-5959-4b3e-a609-561084591118}" locklevel="0" colspan="1" rowspan="1" labelid="{45194abd-b8fa-4bf7-b52a-fe43db28c209}">
+                        <labels>
+                          <label description="Asset ID" languagecode="1033" />
+                        </labels>
+                        <control id="new_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cbd8c85a-3cd4-4686-b252-8233b4616aef}" locklevel="0" colspan="1" rowspan="1" labelid="{8a1fdfde-e0c8-4522-9426-12f89efa2bf5}">
+                        <labels>
+                          <label description="Asset Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_assetname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_assetname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72232996-3f20-45fc-b878-31c82cdd8d4e}" locklevel="0" colspan="1" rowspan="1" labelid="{09e24da8-76dc-4810-90b8-113f0efa3594}">
+                        <labels>
+                          <label description="Asset Type" languagecode="1033" />
+                        </labels>
+                        <control id="new_assettype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="new_assettype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{10cc761a-cada-469b-a788-356daa006ad8}" locklevel="0" colspan="1" rowspan="1" labelid="{743e87fb-8b81-4b6f-a283-f1222d04382d}">
+                        <labels>
+                          <label description="Acquisition Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_adquired" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="new_adquired" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3aad687-c4a1-4e0d-aa10-785eeebab070}" locklevel="0" colspan="1" rowspan="1" labelid="{6a0452d2-1a06-4b8f-98ab-4155c4c82bf3}">
+                        <labels>
+                          <label description="Purchase Value" languagecode="1033" />
+                        </labels>
+                        <control id="new_purchasevalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="new_purchasevalue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3045ca20-a1fd-40eb-a1ac-f4d64e19b0c5}" locklevel="0" colspan="1" rowspan="1" labelid="{d0d94cc7-ebe2-4c93-bfa9-08a0e55aea0f}">
+                        <labels>
+                          <label description="Serial Number" languagecode="1033" />
+                        </labels>
+                        <control id="new_serialnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_serialnumber" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Asset quick view form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

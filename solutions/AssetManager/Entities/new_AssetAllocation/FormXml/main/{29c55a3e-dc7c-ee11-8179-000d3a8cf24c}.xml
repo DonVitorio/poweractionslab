@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{29c55a3e-dc7c-ee11-8179-000d3a8cf24c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{c87fa89a-5c92-4377-b4b9-7443efeb02c6}" IsUserDefined="1" labelid="{10070a0b-610d-4f96-812d-b400fb1035d4}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{e8c1a374-cc20-4ebe-b2a1-35745bf44555}" name="SUMMARY" labelid="{e9dd724d-4c52-4e5b-9c2f-d175bc32ad4d}">
+                  <labels>
+                    <label description="SUMMARY" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b8b1740d-0f53-4e9b-8bb3-dd4196b7f50b}" labelid="{7dd8b6d7-1534-4639-8e66-5089daf11c74}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b990d4a-0a44-43d9-b641-6712bc4d4930}" locklevel="0" colspan="1" rowspan="1" labelid="{050db381-a264-409f-8a66-0b0b3b288872}">
+                        <labels>
+                          <label description="Employee" languagecode="1033" />
+                        </labels>
+                        <control id="new_employee" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_employee" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f870c670-315b-4416-8342-b6a8f95634a6}" locklevel="0" colspan="1" rowspan="1" labelid="{54322235-e599-40be-bea4-511ade8ecec0}">
+                        <labels>
+                          <label description="Requested By" languagecode="1033" />
+                        </labels>
+                        <control id="new_requestedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_requestedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4f9229d8-7cd1-4e81-bfe1-49a3f37bf42a}" locklevel="0" colspan="1" rowspan="1" labelid="{01083775-21b5-4a47-a839-0f46a1a2e3f7}">
+                        <labels>
+                          <label description="Asset" languagecode="1033" />
+                        </labels>
+                        <control id="new_asset" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_asset" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{268744ca-1e40-4a2c-8a76-682f0ba2936d}" locklevel="0" colspan="1" rowspan="1" labelid="{2d239e2e-30b0-41fe-8bde-5b199c24d894}">
+                        <labels>
+                          <label description="Outside Policy?" languagecode="1033" />
+                        </labels>
+                        <control id="new_outsidepolicy" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="new_outsidepolicy" disabled="false" uniqueid="{61e79790-fc5d-47d7-bf47-52638ef846f9}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8318cefe-5ce5-4ab7-9c74-436c05ab193c}" locklevel="0" colspan="1" rowspan="4" labelid="{495e7b01-7ada-4453-86ee-6e2767a23da5}">
+                        <labels>
+                          <label description="Reason" languagecode="1033" />
+                        </labels>
+                        <control id="new_reason" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="new_reason" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="null_section_4" id="f459fac6-d5aa-4647-9ae2-4bf7549d9869" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{0c84f936-41ac-4d46-ab23-e18f2a62405a}">
+                  <labels>
+                    <label description="DATE AND CHECKS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{8c94bd74-7a4c-4ed4-91b1-96ee09587835}" locklevel="0" colspan="1" rowspan="1" labelid="{a85e5ed8-f613-4a30-b26d-c8b0da12a1cd}">
+                        <labels>
+                          <label description="Allocation Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_allocationdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="new_allocationdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{355255dd-14fe-495c-9644-bcabcb33901f}" locklevel="0" colspan="1" rowspan="1" labelid="{20d152eb-8b86-4c56-a62f-3df169cabcfc}">
+                        <labels>
+                          <label description="Allocation Check" languagecode="1033" />
+                        </labels>
+                        <control id="new_allocationcheck" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="new_allocationcheck" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{265a14ef-bcd0-47ec-b78e-1196fe824f96}" locklevel="0" colspan="1" rowspan="1" labelid="{e4d05f2d-02a2-4073-b6d1-cb7566fd2a1e}">
+                        <labels>
+                          <label description="Return Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_returnduedate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="new_returnduedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72569ea0-44e9-4c92-9717-713e2afb69ab}" locklevel="0" colspan="1" rowspan="1" labelid="{d64fdaa9-a642-493d-941a-66b2098871fd}">
+                        <labels>
+                          <label description="Return Actual Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_returnactualdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="new_returnactualdate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="_section_446" id="88dc1ea5-3dab-4f4f-904d-0600db455394" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{8c8afc52-9311-41db-85c3-f660508aec27}">
+                  <labels>
+                    <label description="EMPLOYEE DETAILS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{4e8f1ec9-e021-44d1-bc33-4bef1060621d}" colspan="1" rowspan="1" labelid="{7bed91e2-35fb-45d1-bd43-2b3ff0b51fa6}">
+                        <labels>
+                          <label description="New QV control 1699299438052" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1699299438052" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="new_employee">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;3eb2c8d8-da7c-ee11-8179-000d3a8cf24c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_5" id="e7672be4-6ee3-4f50-9ccd-60b00801c076" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{2f3b1695-55df-467b-a66d-c842ae3bc1a1}">
+                  <labels>
+                    <label description="ASSET DETAILS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{981d7e62-1909-467b-aa08-1a774c345996}" colspan="1" rowspan="1" labelid="{edf05256-4976-404e-aed7-0e135d52d4f5}">
+                        <labels>
+                          <label description="New QV control 1699299569361" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1699299569361" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="new_asset">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="new_asset"&gt;3d68920e-db7c-ee11-8179-000d3a8cf24c&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="96c52392-b730-4914-82b1-bfbdcf22f5d5" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Asset Checks" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="6c688dee-8297-4728-8888-63c6fcd04722" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="ASSET CHECKS" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{5114c923-09e5-4d68-b013-c7ec10f58889}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1699301059834" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>new_assetcheck</TargetEntityType>
+                            <ViewId>{5C77E5D1-44CE-489F-99E9-4402CC13DC54}</ViewId>
+                            <ViewIds>{5C77E5D1-44CE-489F-99E9-4402CC13DC54}</ViewIds>
+                            <RelationshipName>new_new_assetcheck_AssetAllocation_new_asseta</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{099c6ca1-2518-4234-af05-6c871e2c35ca}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{13face6f-d9a3-4c63-bb47-087f62dad8b3}" showlabel="false" labelid="{4b57dd98-1eef-4b3d-9f0a-17834540e30c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f8a18b14-5dae-49c3-9a5e-56ef7a2a6c47}" showlabel="false" labelid="{96f3aa6a-0ff4-49f1-8385-7ca2036da662}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d8189674-a35e-4a19-b161-5ee948ed9516}" showlabel="false" labelid="{20e97149-b794-46a0-b98d-7e444886ae97}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8f8d91b7-9f3d-48d6-b0bc-a49ae12c920d}" colspan="1" rowspan="1" labelid="{7ab02b42-e9f7-4f0b-9814-102e10115a94}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{e7dfd2c6-62a4-45d8-803a-a56717449c40}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5fe54cd9-7f5a-4f73-9efe-1383eee7db00}" showlabel="false" labelid="{269a4703-d20d-44f3-a82c-f7783f8591b8}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3889e831-7b63-493c-9534-795f2eecca27}" showlabel="false" labelid="{bc8c3c05-1da1-481f-a350-0db5e39f008e}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{83c12e30-aca7-4a96-9c67-fd6a8daa4529}" showlabel="false" labelid="{0429fd63-8eb4-466b-823e-193c3f9cdf4f}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{61e79790-fc5d-47d7-bf47-52638ef846f9}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>new_outsidepolicy</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">new_outsidepolicy</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">new_outsidepolicy</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">new_outsidepolicy</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Asset Allocation main form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

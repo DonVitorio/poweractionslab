@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>new_AssetManagementApp</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="new_asset" />
+    <AppModuleComponent type="1" schemaName="new_assetallocation" />
+    <AppModuleComponent type="1" schemaName="new_assetcheck" />
+    <AppModuleComponent type="1" schemaName="new_assetsallocationprocess" />
+    <AppModuleComponent type="60" id="{0265f91c-0b7f-ee11-8179-000d3a8cf24c}" />
+    <AppModuleComponent type="60" id="{4105003a-0f7f-ee11-8179-000d3a8cf24c}" />
+    <AppModuleComponent type="62" schemaName="new_AssetManagementApp" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{97a773a4-177d-ee11-8179-000d3a8cf24c}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Asset Management App" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

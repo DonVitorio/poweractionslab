@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5c77e5d1-44ce-489f-99e9-4402cc13dc54}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_name" select="1" icon="1" preview="1">
+        <row name="result" id="new_assetcheckid">
+          <cell name="new_name" width="300" />
+          <cell name="new_assetallocation" width="134" />
+          <cell name="new_checktype" width="108" />
+          <cell name="ownerid" width="109" />
+          <cell name="new_checkresult" width="116" />
+          <cell name="new_checkeddate" width="119" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_assetcheck">
+          <attribute name="new_assetcheckid" />
+          <attribute name="new_name" />
+          <order attribute="new_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_assetallocation" />
+          <attribute name="new_checktype" />
+          <attribute name="ownerid" />
+          <attribute name="new_checkresult" />
+          <attribute name="new_checkeddate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Asset Checks" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

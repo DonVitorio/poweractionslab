@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{9bd2ef37-287c-ee11-8179-000d3a8cf24c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_name" select="1" icon="1" preview="1">
+        <row name="result" id="new_assetid">
+          <cell name="new_name" width="247" />
+          <cell name="new_assetname" width="300" />
+          <cell name="new_serialnumber" width="123" />
+          <cell name="new_adquired" width="136" />
+          <cell name="new_assettype" width="103" />
+          <cell name="new_allocationstatus" width="137" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_asset">
+          <attribute name="new_assetid" />
+          <attribute name="new_name" />
+          <order attribute="new_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="new_allocationstatus" operator="eq" value="100000000" />
+          </filter>
+          <attribute name="new_assetname" />
+          <attribute name="new_serialnumber" />
+          <attribute name="new_adquired" />
+          <attribute name="new_assettype" />
+          <attribute name="new_allocationstatus" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Available Assets" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

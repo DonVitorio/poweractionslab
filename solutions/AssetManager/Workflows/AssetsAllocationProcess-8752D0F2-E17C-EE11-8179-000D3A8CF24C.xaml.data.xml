@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{8752d0f2-e17c-ee11-8179-000d3a8cf24c}" Name="Assets Allocation Process" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/AssetsAllocationProcess-8752D0F2-E17C-EE11-8179-000D3A8CF24C.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>new_assetsallocationprocess</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>new_AssetAllocation</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Assets Allocation Process" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{77f148cb-5226-4f01-b229-a829c181683d}">
+      <label languagecode="1033" description="Request" />
+    </steplabels>
+    <steplabels id="{29d58a8a-b51b-4be3-a161-3d425b7a9864}">
+      <label languagecode="1033" description="Requested By" />
+    </steplabels>
+    <steplabels id="{ff50c354-e8bd-4f79-8d48-f16682704d39}">
+      <label languagecode="1033" description="Asset" />
+    </steplabels>
+    <steplabels id="{5c70027a-8d4d-4340-8a28-1200ef285281}">
+      <label languagecode="1033" description="Outside Policy?" />
+    </steplabels>
+    <steplabels id="{e64516dd-bce7-4f90-bce0-2d55a696f7f6}">
+      <label languagecode="1033" description="Approval" />
+    </steplabels>
+    <steplabels id="{ac03b534-9ade-4d4b-93f2-3903b0a665cc}">
+      <label languagecode="1033" description="Approval Status" />
+    </steplabels>
+    <steplabels id="{07fbb771-ea93-4156-9952-82e77704e7a5}">
+      <label languagecode="1033" description="New Step" />
+    </steplabels>
+    <steplabels id="{d4aa3441-1e08-40d4-b793-c18ff67c1a45}">
+      <label languagecode="1033" description="Asset Check" />
+    </steplabels>
+    <steplabels id="{ea5c3e8c-2f18-4fda-a919-d16924b915ff}">
+      <label languagecode="1033" description="Allocation Check" />
+    </steplabels>
+    <steplabels id="{3fb3badc-9aa8-4532-8468-eb2fe1497911}">
+      <label languagecode="1033" description="Allocate" />
+    </steplabels>
+    <steplabels id="{31023afc-089d-4ba2-978c-60f4b578e548}">
+      <label languagecode="1033" description="Allocation Date" />
+    </steplabels>
+    <steplabels id="{b352b8b8-157b-4451-a9c1-5ba653bb2053}">
+      <label languagecode="1033" description="Return Due Date" />
+    </steplabels>
+    <steplabels id="{e3f9853b-0b99-4b6c-a5e4-080413ec40af}">
+      <label languagecode="1033" description="Return" />
+    </steplabels>
+    <steplabels id="{330d3b2b-7879-477c-b0bf-050eb0106fd4}">
+      <label languagecode="1033" description="Return Actual Date" />
+    </steplabels>
+  </labels>
+</Workflow>
