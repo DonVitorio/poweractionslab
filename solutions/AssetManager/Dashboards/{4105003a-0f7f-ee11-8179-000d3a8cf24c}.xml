@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="IT Spend Analysis Dashboard" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{4105003a-0f7f-ee11-8179-000d3a8cf24c}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="powerbi">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{72ff3ab8-4124-4fe9-a6df-7842dc7f93e8}">
+            <labels>
+              <label description="" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="111" id="{f539d035-f3b3-4639-a883-a7937db48d54}">
+                    <labels>
+                      <label description="" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="3" rowspan="24" showlabel="false" id="{e4cc84ea-50fb-4955-8610-7bfac4870688}" availableforphone="false">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="f5962a54-0cbd-4d0f-b9a7-d09be0fa68fd" classid="{8C54228C-1B25-4909-A12A-F2B968BB0D62}">
+                            <parameters>
+                              <PowerBIGroupId>1bdb2c0e-3c78-4868-9034-29469365707f</PowerBIGroupId>
+                              <PowerBIDashboardId>3f6ef437-6c61-4b1d-a97a-72badbc7efe2</PowerBIDashboardId>
+                              <TileUrl>https://app.powerbi.com/dashboardEmbed?config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVdFU1QtVVMzLUEtUFJJTUFSWS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCIsImVtYmVkRmVhdHVyZXMiOnsidXNhZ2VNZXRyaWNzVk5leHQiOnRydWV9fQ%3D%3D&amp;groupId=1bdb2c0e-3c78-4868-9034-29469365707f&amp;dashboardId=3f6ef437-6c61-4b1d-a97a-72badbc7efe2</TileUrl>
+                              <Type>1</Type>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

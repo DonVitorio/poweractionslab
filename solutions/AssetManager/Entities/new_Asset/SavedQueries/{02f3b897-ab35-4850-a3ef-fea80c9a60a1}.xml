@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{02f3b897-ab35-4850-a3ef-fea80c9a60a1}</savedqueryid>
+    <layoutxml>
+      <grid name="new_assets" jump="new_name" select="1" icon="1" preview="0">
+        <row name="new_asset" id="new_assetid">
+          <cell name="new_name" width="83" />
+          <cell name="new_assetname" width="109" />
+          <cell name="new_serialnumber" width="123" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_asset">
+          <attribute name="new_assetid" />
+          <attribute name="new_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_assetname" />
+          <attribute name="new_serialnumber" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Asset Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,98 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "new_sharedcommondataserviceforapps_a1f7d"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "When_an_asset_allocation_date_is_assigned": {
+          "metadata": {
+            "operationMetadataId": "6fc93a5b-5295-4e6d-8596-12444212e98a"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "subscriptionRequest/message": 4,
+              "subscriptionRequest/entityname": "new_assetallocation",
+              "subscriptionRequest/scope": 2,
+              "subscriptionRequest/filteringattributes": "new_allocationdate"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "Get_the_related_asset": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "dc4db145-4745-4988-8a58-fba278550051"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "GetItem",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "new_assets",
+              "recordId": "@triggerOutputs()?['body/_new_asset_value']"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Update_a_row": {
+          "runAfter": {
+            "Get_the_related_asset": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "a7d8e817-dbb6-42bc-987c-10703bc14dd2"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "UpdateRecord",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "new_assets",
+              "recordId": "@outputs('Get_the_related_asset')?['body/new_assetid']",
+              "item/new_allocationstatus": 100000001
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

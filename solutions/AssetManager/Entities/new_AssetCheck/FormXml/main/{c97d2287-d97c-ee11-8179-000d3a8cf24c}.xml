@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c97d2287-d97c-ee11-8179-000d3a8cf24c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{77ae0d7a-4db9-49ad-8c47-9bf8c076a8dc}" IsUserDefined="1" labelid="{cd38b051-6e58-42c0-b059-8985f5247150}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{a0f64655-602c-4bfd-bf28-389b6ec63b24}" columns="11" labelid="{6ac7b870-7517-47aa-9616-f5bbd3e51bb5}">
+                  <labels>
+                    <label description="SUMMARY" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5a94a589-5013-4b63-97ba-c264d50d3ae5}" labelid="{fd125098-70eb-4800-8413-5fdde26f48c3}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" />
+                      </cell>
+                      <cell locklevel="0" id="{15922c0f-a730-4280-a693-7452e8ca4eea}" labelid="{bc8bae5c-4a0b-44a7-837d-2f313697a0ed}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9908016-4b2b-413c-9ed1-2b8d0b558c87}" locklevel="0" colspan="1" rowspan="1" labelid="{3ba33fcf-128e-4c70-8cbb-9e3141d8e1db}">
+                        <labels>
+                          <label description="Asset Allocation" languagecode="1033" />
+                        </labels>
+                        <control id="new_assetallocation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="new_assetallocation" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{4aac5367-56f9-410a-ac2d-f52c633bb047}" labelid="{5b963f7d-db96-4f6b-bb98-37ed82edc3ee}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b1976c8-e388-457d-b170-b8e88f1fbcd2}" locklevel="0" colspan="1" rowspan="1" labelid="{eaba8739-d523-4749-a7a8-4a5756562548}">
+                        <labels>
+                          <label description="Check Type" languagecode="1033" />
+                        </labels>
+                        <control id="new_checktype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="new_checktype" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{2bc61307-19fa-473b-b1b8-986686d3eecb}" labelid="{c1c5ab31-aa58-4ecf-9a00-3253ce8a534a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1db6b305-5428-4fc8-b2b7-91817b95aa1e}" labelid="{2fe01929-0c7e-4ea8-b0d4-9783d0e0c318}">
+                        <labels>
+                          <label description="Checked By" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell locklevel="0" id="{09dbcfb4-a064-440c-93df-afcfef9b5c98}" labelid="{04ccc3c5-ed03-406c-b59e-61081afb54fa}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{432fcca9-cac9-4491-bc11-e0c46076c84c}" locklevel="0" colspan="1" rowspan="1" labelid="{9e58f75d-07a9-4e4b-9142-6a4c78ba22e5}">
+                        <labels>
+                          <label description="Checked Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_checkeddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="new_checkeddate" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{931e4279-d3e0-4ebd-b5aa-42d8b8f1885f}" labelid="{d7862815-a5b4-4968-8e0f-b837cda6e565}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="_section_829" id="ff9da06f-30d3-4d78-9841-1d0bbbd6cace" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{b56cd8c0-52aa-4a50-972a-d5146f113fc8}">
+                  <labels>
+                    <label description="ASSET CHECK" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{32d81fdb-995a-48c7-8d68-522dad33b3c0}" locklevel="0" colspan="1" rowspan="1" labelid="{254efebc-72ae-4252-81cd-b9002546449e}">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="new_notes" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="new_notes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f76904f0-2b1d-4b2d-8f7d-454426f607fa}" locklevel="0" colspan="1" rowspan="1" labelid="{08b7ff07-5193-4a6d-9b16-598f5f13799b}">
+                        <labels>
+                          <label description="Check Result" languagecode="1033" />
+                        </labels>
+                        <control id="new_checkresult" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="new_checkresult" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{889145ab-677a-4b03-af73-0e62d93ce9da}" locklevel="0" colspan="1" rowspan="1" labelid="{6015d102-f7d4-4d21-83a0-0408ac29e8da}">
+                        <labels>
+                          <label description="Rating" languagecode="1033" />
+                        </labels>
+                        <control id="new_rating" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="new_rating" disabled="false" uniqueid="{e5e5648e-a7af-434f-9980-62acfa6be382}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{87c7cc11-196b-414c-a646-9d2a08daca24}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{5b65c909-c0ce-40e9-ae4c-d48b0e2d8b75}" showlabel="false" labelid="{c5490e06-fd30-4db4-bb98-69660d9dd0d2}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e8e8a308-625d-4535-878a-8bc9ee84db00}" showlabel="false" labelid="{a6a601a0-22f5-4850-a527-92f2867598a0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a052e799-5b70-4c2f-ac75-54d91391c74f}" showlabel="false" labelid="{4a63ca0d-fda9-425b-ae6e-5c58bec66007}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{fc06f2df-1fb3-4288-a7ed-b8695267205e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{3cda4902-8fd0-41f0-92d4-3c0d7365c660}" showlabel="false" labelid="{ee886406-c1c6-4e35-8f15-915cf57025bd}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b16e2417-ae36-456d-905e-91428176808e}" showlabel="false" labelid="{33496eee-9f5a-40af-a30f-ab52ff5b1f65}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ac157b82-90c6-4f41-97e4-f10996506580}" showlabel="false" labelid="{fdd874fb-4a8f-4a0e-8673-766388087496}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{e5e5648e-a7af-434f-9980-62acfa6be382}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>new_rating</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Rating.StarRatingControl">
+            <parameters>
+              <value type="Whole.None">new_rating</value>
+              <max type="Enum" static="true">5</max>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Rating.StarRatingControl">
+            <parameters>
+              <value type="Whole.None">new_rating</value>
+              <max type="Enum" static="true">5</max>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Rating.StarRatingControl">
+            <parameters>
+              <value type="Whole.None">new_rating</value>
+              <max type="Enum" static="true">5</max>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Asset Check main form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
